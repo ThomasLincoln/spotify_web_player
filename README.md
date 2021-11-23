@@ -1,10 +1,16 @@
 # Spotify Web Player
 
 ## Links usados
-https://br.ccm.net/faq/1538-favicon-o-icone-do-seu-site-na-barra-de-endereco
+1. https://br.ccm.net/faq/1538-favicon-o-icone-do-seu-site-na-barra-de-endereco
 
-https://meyerweb.com/eric/tools/css/reset/
+2. https://meyerweb.com/eric/tools/css/reset/
+
+3. https://blog.geekhunter.com.br/voce-conhece-html-semantico/
+
 
 ## Coisas para Fazer
-tirar a parte preta do icon 
-Arrumar um jeito de salvar a logo do spotify
+* Grid do Aside.
+* Arrumar um jeito do usuario poder aumentar e diminuir o aside
+
+## Observações
+1. Fiz uso do HTML semântico, é usado para subir no "ranking" de sites do google. E também pra ser mais acessível, ver terceiro link.
