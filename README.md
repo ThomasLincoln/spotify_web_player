@@ -14,3 +14,9 @@
 
 ## Observações
 1. Fiz uso do HTML semântico, é usado para subir no "ranking" de sites do google. E também pra ser mais acessível, ver terceiro link.
+
+
+## Atualizações
+versão alpha 0.2
+
+![alpha_0.2](contents/prints/1.png)

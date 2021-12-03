@@ -1,26 +1,47 @@
-.asides{
-  background-color: black;
-  height: 100vh;
-  width: 17vw;
-  content: ' ';
-  display: grid;
-  grid-template: 
-  "top" 2fr
-  "bottom" 1fr
-  ;
+.wrapper{
+  font-family: "Gotham", "Arial";
+  max-height:100vh;
 }
 
-.asides.-logo{
+a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* asides */
+.asides {
+  background-color: black;
+  height: 100vh;
+  width: 18vw;
+  content: " ";
+  grid-template:
+    "top" 2fr
+    "bottom" 1fr;
+}
+.asides.-content {
+  padding-top: 1.4pc;
+}
+.asides.-logo {
+  padding-left: 1.5pc;
   height: 40px;
   max-width: 131px;
   width: 100%;
 }
-
-.asides.-top{
-  grid-area: top;
-}
-.asides.-bottom{
-  grid-area: bottom;
+.asides.-group {
+  padding: 1.5pc 0pc;
 }
 
-
+/* opções */
+.option {
+  margin: 0pc 0.5pc;
+  padding: 1pc;
+  font-weight: 700;
+  font-size: 0.8pc;
+  border-radius: 0.2pc;
+}
+.option a{
+  color: #ffffff;
+}
+.option.-selected {
+  background-color: rgb(40, 40, 40);
+}

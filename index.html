@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="imagem/png" href="./assets/logo-spotify.png"/>
+    <link rel="icon" type="imagem/png" href="./contents/assets/logo-spotify.png" />
 
-  <link rel="stylesheet" href="./style/reset.css">
-  <link rel="stylesheet" href="./style/main.css">
-  <title>Spotify - Web Player</title>
-</head>
-<body>
-  <!--Ver observacao 1-->
-  <aside class="asides">
-    <div class="asides -top">
-      <img class="asides -logo" src="./assets/logo-spotify-page.svg" alt="" srcset="">
-      <p><a href="#">Início</a></p>
-      <p><a href="#">Buscar</a></p>
-      <p><a href="#">Biblioteca</a></p>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Spotify - Web Player</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Ver observacao 1-->
+      <aside class="asides">
+        <div class="asides -content">
+          <img
+            class="asides -logo"
+            src="./contents/assets/logo-spotify-page.svg"
+            alt=""
+            srcset=""
+          />
+          <div class="asides -group">
+            <p class="option -selected">
+              <span class="material-icons"> home </span>
+              <a href="#">Início</a>
+            </p>
+            <p class="option">
+              <span class="material-icons"> search </span>
+              <a href="#">Buscar</a>
+            </p>
+            <p class="option">
+              <span class="material-icons"> view_carousel </span>
+              <a href="#">Biblioteca</a>
+            </p>
+          </div>
+          <!-- <p><a href="#">Criar playlist</a></p>
+                <p><a href="#">Músicas curtidas</a></p>
+                <p><a href="#">Seus episódios</a></p> -->
+        </div>
+      </aside>
     </div>
-    <div class="asides -bottom">
-      <p><a href="#">Criar playlist</a></p>
-      <p><a href="#">Músicas curtidas</a></p>
-      <p><a href="#">Seus episódios</a></p>
-    </div>
-
-  </aside>
-</body>
+  </body>
 </html>
